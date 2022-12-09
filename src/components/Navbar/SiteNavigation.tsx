@@ -1,24 +1,26 @@
 import { Menu, Space } from 'antd'
 import useMobile from 'hooks/Mobile'
-import { CSSProperties, useEffect, useState } from 'react'
+import { /*CSSProperties,*/ useEffect, useState } from 'react'
 import Account from './Account'
 import MobileNavigation from './Mobile/MobileNavigation'
-import { desktopMenuItems, resourcesMenuItems } from './navigationItems'
+import { desktopMenuItems /*, resourcesMenuItems*/ } from './navigationItems'
 import NavLanguageSelector from './NavLanguageSelector'
 import ThemePicker from './ThemePicker'
 import { TransactionsList } from './TransactionList'
-
+/*
 const resourcesMenu = (
   <Menu className="mt-[-16px] ml-[-6px]" items={resourcesMenuItems()} />
 )
-
+*/
 export default function SiteNavigation() {
-  const [resourcesOpen, setResourcesOpen] = useState<boolean>(false)
+  const [, /*resourcesOpen*/ setResourcesOpen] = useState<boolean>(false)
   const isMobile = useMobile()
+  /*
   const dropdownIconStyle: CSSProperties = {
     fontSize: 13,
     marginLeft: 7,
   }
+  */
 
   // Close resources dropdown when clicking anywhere in the window except the dropdown items
   useEffect(() => {
@@ -29,12 +31,13 @@ export default function SiteNavigation() {
     return () => window.removeEventListener('click', handleClick)
   }, [])
 
-  const menuItems = desktopMenuItems({
+  const menuItems =
+    desktopMenuItems(/*{
     resourcesMenu,
     resourcesOpen,
     setResourcesOpen,
     dropdownIconStyle,
-  })
+  }*/)
 
   if (isMobile) return <MobileNavigation />
 

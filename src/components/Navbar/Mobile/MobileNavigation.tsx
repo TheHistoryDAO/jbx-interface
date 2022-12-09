@@ -65,7 +65,10 @@ export default function MobileNavigation() {
         >
           <Menu
             mode="inline"
-            items={mobileNavItems({ isConnected, disconnect, collapseNav })}
+            items={mobileNavItems({
+              isConnected,
+              disconnect /*, collapseNav*/,
+            })}
             defaultSelectedKeys={['resources']}
           />
         </CollapsePanel>
