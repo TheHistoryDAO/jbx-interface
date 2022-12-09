@@ -16,6 +16,7 @@ import { classNames } from 'utils/classNames'
 import { hasNftRewards } from 'utils/nftRewards'
 import { NftRewardsSection } from '../../NftRewards/NftRewardsSection'
 import { ProjectBanners } from './banners/ProjectBanners'
+import { ManageNftsSection } from './ManageNftsSection/ManageNftsSection'
 import NewDeployModal, { NEW_DEPLOY_QUERY_PARAM } from './modals/NewDeployModal'
 import { V2V3ProjectTokenBalancesModal } from './modals/V2V3ProjectTokenBalancesModal/V2V3ProjectTokenBalancesModal'
 import ProjectActivity from './ProjectActivity'
@@ -32,10 +33,7 @@ const AllAssetsButton = () => {
 
   return (
     <>
-      <TextButton
-        className="text-sm font-normal"
-        onClick={() => setBalancesModalVisible(true)}
-      >
+      <TextButton onClick={() => setBalancesModalVisible(true)}>
         <Trans>All assets</Trans>
       </TextButton>
       <V2V3ProjectTokenBalancesModal
@@ -129,6 +127,9 @@ export function V2V3Project() {
                 <section>
                   <V2V3ManageTokensSection />
                 </section>
+
+                <ManageNftsSection />
+
                 <section>
                   <V2V3FundingCycleSection />
                 </section>
