@@ -11,7 +11,7 @@ export const OverflowVideoLink: FC = ({ children }) => (
 const JB_FEE = 2.5
 
 const JBDiscordLink = ({ children }: { children: ReactNode }) => (
-  <ExternalLink href="https://discord.gg/6jXrJSyDFf">{children}</ExternalLink>
+  <ExternalLink href="https://discord.gg/">{children}</ExternalLink>
 )
 
 // t macro function wasn't working when QAs was in the same file
@@ -56,7 +56,7 @@ export default function QAs(): {
           <p>
             Juicebox is an open protocol on Ethereum that is funded using
             Juicebox itself. You can check out the contractualized budget specs{' '}
-            <Link href="/p/juicebox">here</Link>.
+            <Link href="v2/p/1">here</Link>.
           </p>
           <p>
             Projects building on Juicebox pay a {JB_FEE}% JBX membership fee
@@ -233,11 +233,11 @@ export default function QAs(): {
       a: (
         <Trans>
           <p>
-            This website (juicebox.money) connects to the Juicebox protocol's
+            This website connects to the HistoryDao deployed Juicebox protocol's
             smart contracts, deployed on the Ethereum network. (note: anyone
             else can make a website that also connects to these same smart
             contracts. For now, don't trust any site other than this one to
-            access the Juicebox protocol).
+            access the HistoryDao deployed Juicebox protocol).
           </p>
           <p>
             Creating a Juicebox project mints you an NFT (ERC-721) representing
@@ -254,7 +254,7 @@ export default function QAs(): {
       ),
     },
     {
-      q: <Trans>How decentralized is Juicebox?</Trans>,
+      q: <Trans>How decentralized is HistoryDao deployed Juicebox?</Trans>,
       a: (
         <Trans>
           <p>
@@ -264,8 +264,8 @@ export default function QAs(): {
             adjust these levers.
           </p>
           <p>
-            The Juicebox protocol is governed by a community of JBX token
-            holders who vote on proposals fortnightly.
+            The HistoryDao deployed Juicebox protocol is governed by a community
+            of HDJ token holders who vote on proposals fortnightly.
           </p>
         </Trans>
       ),
@@ -317,7 +317,7 @@ export default function QAs(): {
             The code could always use more eyes and more critique to further the
             community's confidence. Join our{' '}
             <JBDiscordLink>Discord</JBDiscordLink> and check out the code on{' '}
-            <ExternalLink href="https://github.com/jbx-protocol">
+            <ExternalLink href="https://github.com/TheHistoryDao">
               GitHub
             </ExternalLink>{' '}
             to work with us.

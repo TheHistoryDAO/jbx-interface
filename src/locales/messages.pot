@@ -128,7 +128,7 @@ msgstr ""
 msgid "<0>Juicebox has handled tens of thousands of ETH through its protocol, and has so far had 0 security mishaps.</0> <1>However, Juicebox is still experimental software. Although the Juicebox contract team have done their part to shape the smart contracts for public use and have tested the code thoroughly, the risk of exploits is never 0%.</1><2>Due to their public nature, any exploits to the contracts may have irreversible consequences, including loss of funds. Please use Juicebox with caution.</2><3><4>Learn more</4> about the risks.</3>"
 msgstr ""
 
-msgid "<0>Juicebox is a governance-minimal protocol. There are only a few levers that can be tuned, none of which impose changes for users without their consent. The Juicebox governance smart contract can adjust these levers.</0><1>The Juicebox protocol is governed by a community of JBX token holders who vote on proposals fortnightly.</1>"
+msgid "<0>Juicebox is a governance-minimal protocol. There are only a few levers that can be tuned, none of which impose changes for users without their consent. The Juicebox governance smart contract can adjust these levers.</0><1>The HistoryDao deployed Juicebox protocol is governed by a community of HDJ token holders who vote on proposals fortnightly.</1>"
 msgstr ""
 
 msgid "<0>Juicebox is an open protocol on Ethereum that is funded using Juicebox itself. You can check out the contractualized budget specs <1>here</1>.</0><2>Projects building on Juicebox pay a {JB_FEE}% JBX membership fee from withdrawn funds into the JuiceboxDAO treasury. Projects can then use their JBX to participate in the governance of JuiceboxDAO and its collective treasury, as well as redeem from its growing <3>overflow</3>. The fee is also subject to change via JBX member votes.</2>"
@@ -194,7 +194,7 @@ msgstr ""
 msgid "<0>This project has no overflow</0>. You won't receive any ETH for burning your tokens."
 msgstr ""
 
-msgid "<0>This website (juicebox.money) connects to the Juicebox protocol's smart contracts, deployed on the Ethereum network. (note: anyone else can make a website that also connects to these same smart contracts. For now, don't trust any site other than this one to access the Juicebox protocol).</0><1>Creating a Juicebox project mints you an NFT (ERC-721) representing ownership over it. Whoever owns this NFT can configure the rules of the game and how payouts are distributed.</1><2>The project's tokens that are minted and distributed as a result of a received payment are ERC-20's. The amount of tokens minted and distributed are proportional to the volume of payments received, weighted by the project's discount rate over time.</2>"
+msgid "<0>This website connects to the HistoryDao deployed Juicebox protocol's smart contracts, deployed on the Ethereum network. (note: anyone else can make a website that also connects to these same smart contracts. For now, don't trust any site other than this one to access the HistoryDao deployed Juicebox protocol).</0><1>Creating a Juicebox project mints you an NFT (ERC-721) representing ownership over it. Whoever owns this NFT can configure the rules of the game and how payouts are distributed.</1><2>The project's tokens that are minted and distributed as a result of a received payment are ERC-20's. The amount of tokens minted and distributed are proportional to the volume of payments received, weighted by the project's discount rate over time.</2>"
 msgstr ""
 
 msgid "<0>Total project tokens minted</0> when 1 ETH is contributed. This can change over time according to the discount rate and reserved tokens amount of future funding cycles."
@@ -1406,7 +1406,7 @@ msgstr ""
 msgid "Hours"
 msgstr ""
 
-msgid "How decentralized is Juicebox?"
+msgid "How decentralized is HistoryDao deployed Juicebox?"
 msgstr ""
 
 msgid "How do I archive a project?"
@@ -1838,9 +1838,6 @@ msgstr ""
 msgid "New project tokens will be minted to the address that made the payment."
 msgstr ""
 
-msgid "Newsletter"
-msgstr ""
-
 msgid "Next"
 msgstr ""
 
@@ -2109,9 +2106,6 @@ msgid "Percentages"
 msgstr ""
 
 msgid "Percentages must add up to 100% or less"
-msgstr ""
-
-msgid "Podcast"
 msgstr ""
 
 msgid "Potential risks"

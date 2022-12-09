@@ -59,41 +59,17 @@ export const resourcesMenuItems = (mobile?: boolean): ResourceItem[] => {
     {
       key: 'governance',
       label: (
-        <a href="https://vote.juicebox.money/#/jbdao.eth" {...linkStyle}>
+        <a href="https://snapshot.org/#/historydao.me" {...linkStyle}>
           <Trans>Governance</Trans>
-        </a>
-      ),
-    },
-    {
-      key: 'newsletter',
-      label: (
-        <a href="https://newsletter.juicebox.money" {...linkStyle}>
-          <Trans>Newsletter</Trans>
-        </a>
-      ),
-    },
-    {
-      key: 'podcast',
-      label: (
-        <a href="https://podcast.juicebox.money/" {...linkStyle}>
-          <Trans>Podcast</Trans>
         </a>
       ),
     },
     {
       key: 'discord',
       label: (
-        <a href="https://discord.gg/6jXrJSyDFf" {...linkStyle}>
+        <a href="https://discord.gg/" {...linkStyle}>
           Discord
         </a>
-      ),
-    },
-    {
-      key: 'blog',
-      label: (
-        <Link href="https://info.juicebox.money/blog">
-          <a {...linkStyle}>{t`Blog`}</a>
-        </Link>
       ),
     },
   ]

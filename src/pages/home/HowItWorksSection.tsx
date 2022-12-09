@@ -89,11 +89,11 @@ export function HowItWorksSection() {
                 <Trans>
                   Juicebox isn't guaranteed to be free of bugs or exploits.
                   Before spending money, do your own research.{' '}
-                  <ExternalLink href="https://discord.gg/6jXrJSyDFf">
+                  <ExternalLink href="https://discord.gg/">
                     Ask questions
                   </ExternalLink>
                   , check out the{' '}
-                  <ExternalLink href="https://github.com/jbx-protocol/juice-interface">
+                  <ExternalLink href="https://github.com/TheHistoryDao/jbx-interface">
                     code
                   </ExternalLink>
                   , and understand the{' '}

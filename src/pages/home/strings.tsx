@@ -7,7 +7,7 @@ export const HeroSubheading = () => (
     The programmable funding protocol for builders and creators. Light enough
     for a group of friends, powerful enough for a global network of anons.{' '}
     <a
-      href="/p/juicebox"
+      href="v2/p/1"
       className="text-black underline hover:text-haze-400 hover:underline dark:text-grey-100 dark:hover:text-haze-400"
       style={{
         // TODO: not supported in tailwind
