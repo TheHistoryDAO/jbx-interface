@@ -3933,17 +3933,7 @@
 
 "@jbx-protocol/juice-721-delegate@git+https://github.com/TheHistoryDAO/jbx-721-delegate.git#e97bfdf":
   version "3.0.2"
-  uid e97bfdf41fb5a7dc57d828ec0c30b81563a0d8b0
   resolved "git+https://github.com/TheHistoryDAO/jbx-721-delegate.git#e97bfdf41fb5a7dc57d828ec0c30b81563a0d8b0"
-  dependencies:
-    "@jbx-protocol/juice-contracts-v3" "^2.0.0"
-    "@openzeppelin/contracts" "^4.6.0"
-    "@paulrberg/contracts" "^3.7.0"
-    prb-math "^2.4.3"
-
-"@jbx-protocol/juice-721-delegate@https://github.com/TheHistoryDAO/jbx-721-delegate.git#e97bfdf":
-  version "3.0.2"
-  resolved "https://github.com/TheHistoryDAO/jbx-721-delegate.git#e97bfdf41fb5a7dc57d828ec0c30b81563a0d8b0"
   dependencies:
     "@jbx-protocol/juice-contracts-v3" "^2.0.0"
     "@openzeppelin/contracts" "^4.6.0"
@@ -3964,9 +3954,9 @@
   resolved "https://registry.yarnpkg.com/@jbx-protocol/juice-v1-token-terminal/-/juice-v1-token-terminal-1.0.1.tgz#b3855be69d4ebce57747cee2603df88f7ed23aad"
   integrity sha512-HZXbb6eOxCKmb/VCXDTcLEKyX6jsJhfHAS4mUu+VR18ReibNnwcdjltqsCBkNJlPOMDd3q1MVTXMrnGaOEHzIA==
 
-"@jbx-protocol/project-handles@git+https://github.com/TheHistoryDAO/jbx-project-handles.git#4c33e09":
+"@jbx-protocol/project-handles@git+https://github.com/TheHistoryDAO/jbx-project-handles.git#8552bdd23ff4c006d478c1a778dae93267bdebec":
   version "2.0.4"
-  resolved "git+https://github.com/TheHistoryDAO/jbx-project-handles.git#4c33e09d778d032432bdc432184b942720a31fc1"
+  resolved "git+https://github.com/TheHistoryDAO/jbx-project-handles.git#8552bdd23ff4c006d478c1a778dae93267bdebec"
   dependencies:
     "@jbx-protocol/juice-contracts-v3" "^2.0.0"
 
