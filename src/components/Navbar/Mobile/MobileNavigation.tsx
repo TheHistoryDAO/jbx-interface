@@ -3,9 +3,9 @@ import { Collapse, Menu } from 'antd'
 import CollapsePanel from 'antd/lib/collapse/CollapsePanel'
 import { Header } from 'antd/lib/layout/layout'
 import { useWallet } from 'hooks/Wallet'
-import Link from 'next/link'
+// import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import Logo from '../Logo'
+// import Logo from '../Logo'
 import { mobileNavItems } from '../navigationItems'
 import { TransactionsList } from '../TransactionList'
 
@@ -46,9 +46,12 @@ export default function MobileNavigation() {
           showArrow={false}
           header={
             <div className="flex w-full justify-between">
+              <div className="inline-block"></div>
+              {/*
               <Link href="/">
                 <a className="inline-block">{<Logo className="h-8" />}</a>
               </Link>
+              */}
               <div className="flex items-center gap-7">
                 <TransactionsList listClassName="absolute top-12 left-0 right-0 p-3" />
                 <MenuOutlined

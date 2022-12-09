@@ -1,10 +1,10 @@
 import { DownOutlined, UpOutlined } from '@ant-design/icons'
-import { t, Trans } from '@lingui/macro'
+import { Trans } from '@lingui/macro'
 import { Button, Dropdown } from 'antd'
-import Link from 'next/link'
-import { CSSProperties } from 'react'
+// import Link from 'next/link'
+// import { CSSProperties } from 'react'
 import Account from './Account'
-import Logo from './Logo'
+// import Logo from './Logo'
 import ThemePickerMobile from './Mobile/ThemePickerMobile'
 import NavLanguageSelector from './NavLanguageSelector'
 
@@ -12,12 +12,12 @@ type ResourceItem = {
   label: JSX.Element
   key: string
 }
-
+/*
 const externalMenuLinkProps = {
   target: '_blank',
   rel: 'noopener noreferrer',
 }
-
+*/
 export const DesktopDropDown = ({
   resourcesMenu,
   resourcesOpen,
@@ -75,7 +75,7 @@ export const resourcesMenuItems = (mobile?: boolean): ResourceItem[] => {
   ]
 }
 
-export const desktopMenuItems = ({
+export const desktopMenuItems = (/*{
   resourcesMenu,
   resourcesOpen,
   setResourcesOpen,
@@ -85,7 +85,8 @@ export const desktopMenuItems = ({
   resourcesOpen: boolean
   setResourcesOpen: (resource: boolean) => void
   dropdownIconStyle: CSSProperties
-}) => [
+}*/) => [
+  /*
   {
     key: 'index',
     label: (
@@ -126,17 +127,19 @@ export const desktopMenuItems = ({
       />
     ),
   },
+  */
 ]
 
 export const mobileNavItems = ({
   isConnected,
   disconnect,
-  collapseNav,
-}: {
+}: // collapseNav,
+{
   isConnected: boolean
   disconnect: () => void
-  collapseNav: () => void
+  // collapseNav: () => void
 }) => [
+  /*
   {
     key: 'projects',
     label: (
@@ -181,6 +184,7 @@ export const mobileNavItems = ({
     ),
     children: [...resourcesMenuItems(true)],
   },
+  */
   { key: 'language-picker', label: <NavLanguageSelector /> },
   { key: 'theme-picker', label: <ThemePickerMobile /> },
   {

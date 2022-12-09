@@ -545,9 +545,6 @@ msgstr ""
 msgid "Block number"
 msgstr ""
 
-msgid "Blog"
-msgstr ""
-
 msgid "Bonding curve"
 msgstr ""
 
@@ -1104,9 +1101,6 @@ msgid "Do I need this?"
 msgstr ""
 
 msgid "Do not include .eth"
-msgstr ""
-
-msgid "Docs"
 msgstr ""
 
 msgid "Documentation on v1.1 contracts"
@@ -2229,9 +2223,6 @@ msgid "Project {projectId} not found"
 msgstr ""
 
 msgid "Project:"
-msgstr ""
-
-msgid "Projects"
 msgstr ""
 
 msgid "Projects can be created with an optional discount rate designed to incentivize supporters to contribute earlier rather than later. The amount of tokens rewarded per amount paid to your project will decrease by the discount rate with each new funding cycle. A higher discount rate will incentivize supporters to pay your project earlier rather than later."
