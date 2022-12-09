@@ -8,14 +8,14 @@ const WALLET_CONNECT_URLS = [
 
 const ContentSecurityPolicy = `
   default-src 'none';
-  script-src 'self' https://static.hotjar.com https://script.hotjar.com https://*.juicebox.money 'unsafe-inline' 'unsafe-eval';
+  script-src 'self' https://jbx-interface.vercel.app 'unsafe-inline' 'unsafe-eval';
   style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
   font-src 'self' https://fonts.gstatic.com data:;
-  img-src 'self' https://*.juicebox.money https://juicebox.money https://*.infura-ipfs.io https://jbx.mypinata.cloud data:;
-  connect-src 'self' https://*.juicebox.money https://juicebox.money https://*.infura.io https://*.infura-ipfs.io https://jbx.mypinata.cloud https://api.studio.thegraph.com https://gateway.thegraph.com https://api.arcx.money https://api.tenderly.co https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://*.gnosis.io https://*.safe.global https://*.snapshot.org https://*.wallet.coinbase.com ${WALLET_CONNECT_URLS};
+  img-src 'self' https://jbx-interface.vercel.app https://ipfs.infura.io:5001 https://gateway.pinata.cloud https://*.infura-ipfs.io https://jbx.mypinata.cloud data:;
+  connect-src 'self' https://jbx-interface.vercel.app https://gateway.pinata.cloud https://*.infura.io https://*.infura-ipfs.io https://jbx.mypinata.cloud https://api.studio.thegraph.com https://gateway.thegraph.com https://api.arcx.money https://api.tenderly.co https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com https://*.gnosis.io https://*.safe.global https://*.snapshot.org https://*.wallet.coinbase.com ${WALLET_CONNECT_URLS};
   manifest-src 'self';
   prefetch-src 'self';
-  frame-src 'self' https://vars.hotjar.com/ https://gnosis-safe.io https://app.safe.global;
+  frame-src 'self' https://gnosis-safe.io https://app.safe.global;
 `
 
 module.exports = {

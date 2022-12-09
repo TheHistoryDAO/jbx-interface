@@ -3941,10 +3941,14 @@
     "@paulrberg/contracts" "^3.7.0"
     prb-math "^2.4.3"
 
-"@jbx-protocol/juice-contracts-v3@2.0.2", "@jbx-protocol/juice-contracts-v3@^2.0.0":
+"@jbx-protocol/juice-contracts-v3@^2.0.0":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@jbx-protocol/juice-contracts-v3/-/juice-contracts-v3-2.0.2.tgz#8bf7f451a1169473ae6e4f79f2fe40511c4623ce"
   integrity sha512-Xf9ZJbpIKjEwrcFfWKLMO8WmAO2OOZ/cJCV06XZZkApHHyJls901wyxX+EUZJHQkODO6zFjBGf8IHPla4YFYAw==
+
+"@jbx-protocol/juice-contracts-v3@git+ssh://git@github.com:TheHistoryDAO/jbx-contracts-v3.git", "@jbx-protocol/juice-contracts-v3@git+ssh://git@github.com:TheHistoryDAO/jbx-contracts-v3.git#6ff5de3":
+  version "2.0.2"
+  resolved "git+ssh://git@github.com:TheHistoryDAO/jbx-contracts-v3.git#6ff5de3bbd4750d6d0353d0a500371eaa43e7cf6"
 
 "@jbx-protocol/juice-v1-token-terminal@1.0.1":
   version "1.0.1"
