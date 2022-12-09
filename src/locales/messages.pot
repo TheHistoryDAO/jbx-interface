@@ -2744,7 +2744,7 @@ msgstr ""
 msgid "Text record is set"
 msgstr ""
 
-msgid "The <0>Juicebox contracts</0> deployed by HistoryDAO may be vulnerable to bugs or hacks. All funds moved through Juicebox could be lost or stolen. HistoryDAO and JuiceboxDAO and Peel  not liable for any losses by projects or their supporters."
+msgid "The <0>Juicebox contracts</0> deployed by HistoryDAO may be vulnerable to bugs or hacks. All funds moved through Juicebox could be lost or stolen. HistoryDAO and JuiceboxDAO and Peel not liable for any losses by projects or their supporters."
 msgstr ""
 
 msgid "The <0>issuance rate</0> of your second funding cycle will be <1>{0} tokens per 1 ETH</1>, then <2>{1} tokens per 1 ETH </2>for your third funding cycle, and so on."
