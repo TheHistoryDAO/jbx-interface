@@ -11,7 +11,7 @@ export type SafeApiParams = {
   nonce__lte?: number
 }
 
-const SAFE_API_BASE_URL = `https://safe-transaction-${readNetwork.name}.safe.global/api/v1`
+const SAFE_API_BASE_URL = `https://safe-transaction.${readNetwork.name}.safe.global/api/v1`
 const axiosInstance = axios.create({
   baseURL: SAFE_API_BASE_URL,
 })
