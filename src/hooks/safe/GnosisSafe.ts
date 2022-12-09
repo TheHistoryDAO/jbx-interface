@@ -1,4 +1,5 @@
 import axios from 'axios'
+import { readNetwork } from 'constants/networks'
 import { GnosisSafe } from 'models/safe'
 import { useQuery } from 'react-query'
 
@@ -12,7 +13,7 @@ export const useGnosisSafe = (address?: string) => {
 
       try {
         const response = await axios.get(
-          `https://safe-transaction.gnosis.io/api/v1/safes/${address}`,
+          `https://safe-transaction-${readNetwork.name}.gnosis.io/api/v1/safes/${address}`,
         )
         if (response.data) {
           return response.data as GnosisSafe
