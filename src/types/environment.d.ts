@@ -6,8 +6,8 @@ export type PinataGatewayHostnameURL = 'jbx.mypinata.cloud'
 
 export type PublicBaseURLS =
   | 'http://localhost:3000'
-  | 'https://juicebox.money'
-  | 'https://goerli.juicebox.money'
+  | 'https://juicebox.historydao.me'
+  | 'https://goerli.juicebox.historydao.me'
 
 declare global {
   namespace NodeJS {

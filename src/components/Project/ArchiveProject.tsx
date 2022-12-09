@@ -112,8 +112,8 @@ export function ArchiveProject({
               </li>
               <li>
                 <Trans>
-                  Your project can receive payments through the juicebox.money
-                  app.
+                  Your project can receive payments through the
+                  juicebox.historydao.me app.
                 </Trans>
               </li>
             </Space>
@@ -160,8 +160,8 @@ export function ArchiveProject({
             </li>
             <li>
               <Trans>
-                Your project can't receive payments through the juicebox.money
-                app.
+                Your project can't receive payments through the
+                juicebox.historydao.me app.
               </Trans>
             </li>
             <li>

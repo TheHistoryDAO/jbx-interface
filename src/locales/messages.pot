@@ -128,7 +128,7 @@ msgstr ""
 msgid "<0>Juicebox has handled tens of thousands of ETH through its protocol, and has so far had 0 security mishaps.</0> <1>However, Juicebox is still experimental software. Although the Juicebox contract team have done their part to shape the smart contracts for public use and have tested the code thoroughly, the risk of exploits is never 0%.</1><2>Due to their public nature, any exploits to the contracts may have irreversible consequences, including loss of funds. Please use Juicebox with caution.</2><3><4>Learn more</4> about the risks.</3>"
 msgstr ""
 
-msgid "<0>Juicebox is a governance-minimal protocol. There are only a few levers that can be tuned, none of which impose changes for users without their consent. The Juicebox governance smart contract can adjust these levers.</0><1>The HistoryDao deployed Juicebox protocol is governed by a community of HDJ token holders who vote on proposals fortnightly.</1>"
+msgid "<0>Juicebox is a governance-minimal protocol. There are only a few levers that can be tuned, none of which impose changes for users without their consent. The Juicebox governance smart contract can adjust these levers.</0><1>The HistoryDAO deployed Juicebox protocol is governed by a community of HDJ token holders who vote on proposals fortnightly.</1>"
 msgstr ""
 
 msgid "<0>Juicebox is an open protocol on Ethereum that is funded using Juicebox itself. You can check out the contractualized budget specs <1>here</1>.</0><2>Projects building on Juicebox pay a {JB_FEE}% JBX membership fee from withdrawn funds into the JuiceboxDAO treasury. Projects can then use their JBX to participate in the governance of JuiceboxDAO and its collective treasury, as well as redeem from its growing <3>overflow</3>. The fee is also subject to change via JBX member votes.</2>"
@@ -194,7 +194,7 @@ msgstr ""
 msgid "<0>This project has no overflow</0>. You won't receive any ETH for burning your tokens."
 msgstr ""
 
-msgid "<0>This website connects to the HistoryDao deployed Juicebox protocol's smart contracts, deployed on the Ethereum network. (note: anyone else can make a website that also connects to these same smart contracts. For now, don't trust any site other than this one to access the HistoryDao deployed Juicebox protocol).</0><1>Creating a Juicebox project mints you an NFT (ERC-721) representing ownership over it. Whoever owns this NFT can configure the rules of the game and how payouts are distributed.</1><2>The project's tokens that are minted and distributed as a result of a received payment are ERC-20's. The amount of tokens minted and distributed are proportional to the volume of payments received, weighted by the project's discount rate over time.</2>"
+msgid "<0>This website connects to the HistoryDAO deployed Juicebox protocol's smart contracts, deployed on the Ethereum network. (note: anyone else can make a website that also connects to these same smart contracts. For now, don't trust any site other than this one to access the HistoryDAO deployed Juicebox protocol).</0><1>Creating a Juicebox project mints you an NFT (ERC-721) representing ownership over it. Whoever owns this NFT can configure the rules of the game and how payouts are distributed.</1><2>The project's tokens that are minted and distributed as a result of a received payment are ERC-20's. The amount of tokens minted and distributed are proportional to the volume of payments received, weighted by the project's discount rate over time.</2>"
 msgstr ""
 
 msgid "<0>Total project tokens minted</0> when 1 ETH is contributed. This can change over time according to the discount rate and reserved tokens amount of future funding cycles."
@@ -2744,7 +2744,7 @@ msgstr ""
 msgid "Text record is set"
 msgstr ""
 
-msgid "The <0>Juicebox contracts</0> may be vulnerable to bugs or hacks. All funds moved through Juicebox could be lost or stolen. JuiceboxDAO and Peel are not liable for any losses by projects or their supporters."
+msgid "The <0>Juicebox contracts</0> deployed by HistoryDAO may be vulnerable to bugs or hacks. All funds moved through Juicebox could be lost or stolen. HistoryDAO and JuiceboxDAO and Peel  not liable for any losses by projects or their supporters."
 msgstr ""
 
 msgid "The <0>issuance rate</0> of your second funding cycle will be <1>{0} tokens per 1 ETH</1>, then <2>{1} tokens per 1 ETH </2>for your third funding cycle, and so on."
@@ -3503,13 +3503,13 @@ msgstr ""
 msgid "Your new payment address:"
 msgstr ""
 
-msgid "Your project can receive payments through the juicebox.money app."
+msgid "Your project can receive payments through the juicebox.historydao.me app."
 msgstr ""
 
 msgid "Your project can still receive payments directly through the Juicebox protocol contracts."
 msgstr ""
 
-msgid "Your project can't receive payments through the juicebox.money app."
+msgid "Your project can't receive payments through the juicebox.historydao.me app."
 msgstr ""
 
 msgid "Your project cannot receive direct payments while paused."

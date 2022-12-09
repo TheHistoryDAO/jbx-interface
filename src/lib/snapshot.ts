@@ -86,7 +86,7 @@ const generateSnapshotSpaceSettings = ({
     private: false,
     name: projectMetadata?.name,
     about: '',
-    website: `https://juicebox.money/@${handle}`,
+    website: `https://juicebox.historydao.me/@${handle}`,
     twitter: projectMetadata?.twitter,
     symbol: tokenSymbol,
     avatar,

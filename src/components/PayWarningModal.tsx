@@ -26,12 +26,13 @@ export default function PayWarningModal({
       <p className="font-medium">
         <Trans>
           The{' '}
-          <ExternalLink href="https://github.com/jbx-protocol/juice-contracts">
+          <ExternalLink href="https://github.com/TheHistoryDAO/jbx-contracts-v3">
             Juicebox contracts
           </ExternalLink>{' '}
-          may be vulnerable to bugs or hacks. All funds moved through Juicebox
-          could be lost or stolen. JuiceboxDAO and Peel are not liable for any
-          losses by projects or their supporters.
+          deployed by HistoryDAO may be vulnerable to bugs or hacks. All funds
+          moved through Juicebox could be lost or stolen. HistoryDAO and
+          JuiceboxDAO and Peel not liable for any losses by projects or their
+          supporters.
         </Trans>
       </p>
     </Modal>

@@ -27,8 +27,8 @@ const injected = injectedModule()
 const gnosis = gnosisModule()
 const ledger = ledgerModule()
 const trezor = trezorModule({
-  appUrl: 'https://juicebox.money/',
-  email: 'me.jango@protonmail.com',
+  appUrl: 'https://juicebox.historydao.me/',
+  email: '',
 })
 const keystone = keystoneModule()
 const walletConnect = walletConnectModule()

@@ -26,10 +26,10 @@ export const DeploySuccess = ({ projectId }: { projectId: number }) => {
    * Generate a twitter share link based on the project id.
    */
   const twitterShareUrl = useMemo(() => {
-    let juiceboxUrl = `https://juicebox.money/v2/p/${projectId}`
+    let juiceboxUrl = `https://juicebox.historydao.me/v2/p/${projectId}`
     const chainId = chain?.name.toLowerCase() ?? 'mainnet'
     if (chainId !== 'mainnet') {
-      juiceboxUrl = `https://${chainId}.juicebox.money/v2/p/${projectId}`
+      juiceboxUrl = `https://${chainId}.juicebox.historydao.me/v2/p/${projectId}`
     }
     const message = `Check out my project on ${
       chain?.name ? `${chain.name} ` : ''

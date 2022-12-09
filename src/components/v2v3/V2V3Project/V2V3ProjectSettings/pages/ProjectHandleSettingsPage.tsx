@@ -82,10 +82,12 @@ export function ProjectHandleSettingsPage() {
     resetHandleForm()
   }, [resetHandleForm])
 
-  const exampleHandleUrl = `juicebox.money${v2v3ProjectRoute({
+  const exampleHandleUrl = `juicebox.historydao.me${v2v3ProjectRoute({
     handle: 'handle',
   })}`
-  const projectIdUrl = `juicebox.money${v2v3ProjectRoute({ projectId })}`
+  const projectIdUrl = `juicebox.historydao.me${v2v3ProjectRoute({
+    projectId,
+  })}`
 
   return (
     <>

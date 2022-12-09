@@ -233,11 +233,11 @@ export default function QAs(): {
       a: (
         <Trans>
           <p>
-            This website connects to the HistoryDao deployed Juicebox protocol's
+            This website connects to the HistoryDAO deployed Juicebox protocol's
             smart contracts, deployed on the Ethereum network. (note: anyone
             else can make a website that also connects to these same smart
             contracts. For now, don't trust any site other than this one to
-            access the HistoryDao deployed Juicebox protocol).
+            access the HistoryDAO deployed Juicebox protocol).
           </p>
           <p>
             Creating a Juicebox project mints you an NFT (ERC-721) representing
@@ -264,7 +264,7 @@ export default function QAs(): {
             adjust these levers.
           </p>
           <p>
-            The HistoryDao deployed Juicebox protocol is governed by a community
+            The HistoryDAO deployed Juicebox protocol is governed by a community
             of HDJ token holders who vote on proposals fortnightly.
           </p>
         </Trans>
@@ -317,7 +317,7 @@ export default function QAs(): {
             The code could always use more eyes and more critique to further the
             community's confidence. Join our{' '}
             <JBDiscordLink>Discord</JBDiscordLink> and check out the code on{' '}
-            <ExternalLink href="https://github.com/TheHistoryDao">
+            <ExternalLink href="https://github.com/TheHistoryDAO">
               GitHub
             </ExternalLink>{' '}
             to work with us.

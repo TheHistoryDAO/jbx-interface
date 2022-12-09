@@ -78,7 +78,7 @@ export default function Footer() {
         </div>
         <div className="mb-7 flex flex-wrap justify-center gap-y-2">
           {link('Discord', 'https://discord.gg/')}
-          {link('GitHub', 'https://github.com/TheHistoryDao/jbx-interface')}
+          {link('GitHub', 'https://github.com/TheHistoryDAO/jbx-interface')}
           {link('Twitter', 'https://twitter.com/')}
           {link('Terms of Service', TERMS_OF_SERVICE_URL)}
         </div>

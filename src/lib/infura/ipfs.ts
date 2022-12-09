@@ -9,7 +9,7 @@ const AUTH_HEADER = `Basic ${Buffer.from(
 ).toString('base64')}`
 
 const DEV_ORIGIN = 'http://localhost:3000'
-const MAINNET_ORIGIN = 'https://juicebox.money'
+const MAINNET_ORIGIN = 'https://juicebox.historydao.me'
 
 const origin =
   process.env.NODE_ENV === 'development' ? DEV_ORIGIN : MAINNET_ORIGIN
