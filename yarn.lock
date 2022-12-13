@@ -3931,6 +3931,15 @@
   resolved "https://registry.yarnpkg.com/@jbx-protocol/contracts-v2/-/contracts-v2-8.0.4.tgz#ceb72c01f56d528691d048d488fef2566961bb88"
   integrity sha512-AXEMkQzBOlllI0QNUadH1O+vkNnXCxfVXxff1OYWkx3qEqWNyPKifAv9ISECvEiFeN025dutivk3jNWjvbs+tQ==
 
+"@jbx-protocol/juice-721-delegate@git+https://github.com/TheHistoryDAO/jbx-721-delegate.git#b4b2130":
+  version "3.0.2"
+  resolved "git+https://github.com/TheHistoryDAO/jbx-721-delegate.git#b4b21306908c1d50a21c0521cd7ecd939e894e3b"
+  dependencies:
+    "@jbx-protocol/juice-contracts-v3" "^2.0.0"
+    "@openzeppelin/contracts" "^4.6.0"
+    "@paulrberg/contracts" "^3.7.0"
+    prb-math "^2.4.3"
+
 "@jbx-protocol/juice-721-delegate@git+https://github.com/TheHistoryDAO/jbx-721-delegate.git#e97bfdf":
   version "3.0.2"
   resolved "git+https://github.com/TheHistoryDAO/jbx-721-delegate.git#e97bfdf41fb5a7dc57d828ec0c30b81563a0d8b0"
@@ -3945,18 +3954,18 @@
   resolved "https://registry.yarnpkg.com/@jbx-protocol/juice-contracts-v3/-/juice-contracts-v3-2.0.2.tgz#8bf7f451a1169473ae6e4f79f2fe40511c4623ce"
   integrity sha512-Xf9ZJbpIKjEwrcFfWKLMO8WmAO2OOZ/cJCV06XZZkApHHyJls901wyxX+EUZJHQkODO6zFjBGf8IHPla4YFYAw==
 
-"@jbx-protocol/juice-contracts-v3@git+https://github.com/TheHistoryDAO/jbx-contracts-v3.git#6ff5de3":
+"@jbx-protocol/juice-contracts-v3@git+https://github.com/TheHistoryDAO/jbx-contracts-v3.git#3ab2939":
   version "2.0.2"
-  resolved "git+https://github.com/TheHistoryDAO/jbx-contracts-v3.git#6ff5de3bbd4750d6d0353d0a500371eaa43e7cf6"
+  resolved "git+https://github.com/TheHistoryDAO/jbx-contracts-v3.git#3ab293943ae44df66e876deb022f18436c598201"
 
 "@jbx-protocol/juice-v1-token-terminal@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@jbx-protocol/juice-v1-token-terminal/-/juice-v1-token-terminal-1.0.1.tgz#b3855be69d4ebce57747cee2603df88f7ed23aad"
   integrity sha512-HZXbb6eOxCKmb/VCXDTcLEKyX6jsJhfHAS4mUu+VR18ReibNnwcdjltqsCBkNJlPOMDd3q1MVTXMrnGaOEHzIA==
 
-"@jbx-protocol/project-handles@git+https://github.com/TheHistoryDAO/jbx-project-handles.git#8552bdd23ff4c006d478c1a778dae93267bdebec":
+"@jbx-protocol/project-handles@git+https://github.com/TheHistoryDAO/jbx-project-handles.git#d459bd2":
   version "2.0.4"
-  resolved "git+https://github.com/TheHistoryDAO/jbx-project-handles.git#8552bdd23ff4c006d478c1a778dae93267bdebec"
+  resolved "git+https://github.com/TheHistoryDAO/jbx-project-handles.git#d459bd206921b03a8d905969410b35b340b12d3f"
   dependencies:
     "@jbx-protocol/juice-contracts-v3" "^2.0.0"
 
