@@ -12,9 +12,10 @@ export const loadV1Contract = async (
   network: NetworkName,
   signerOrProvider: SignerOrProvider,
 ): Promise<Contract> => {
-  const contract = await import(
-    `@jbx-protocol/contracts-v1/deployments/${network}/${contractName}.json`
-  )
+  // const contract = await import(
+  //   `@jbx-protocol/contracts-v1/deployments/${network}/${contractName}.json`
+  // )
+  const contract = { address: '', abi: [] }
   return new Contract(contract.address, contract.abi, signerOrProvider)
 }
 

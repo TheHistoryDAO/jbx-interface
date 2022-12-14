@@ -69,9 +69,11 @@ async function loadJuiceboxV2ContractGoerli(
   contractName: V2V3ContractName,
 ): Promise<ContractJson | undefined> {
   try {
-    const contractJson = (await import(
-      `@jbx-protocol/contracts-v2-latest/deployments/mainnet/${contractName}.json`
-    )) as ContractJson
+    // const contractJson = (await import(
+    //   `@jbx-protocol/contracts-v2-latest/deployments/mainnet/${contractName}.json`
+    // )) as ContractJson
+
+    const contractJson = { abi: [] }
 
     return {
       abi: contractJson.abi,
@@ -95,9 +97,12 @@ export const loadJuiceboxV2Contract = async (
   const version = contractOverride?.version ?? 'latest'
   const filename = contractOverride?.filename ?? contractName
   try {
-    const contractJson = (await import(
-      `@jbx-protocol/contracts-v2-${version}/deployments/${network}/${filename}.json`
-    )) as ContractJson
+    // const contractJson = (await import(
+    //   `@jbx-protocol/contracts-v2-${version}/deployments/${network}/${filename}.json`
+    // )) as ContractJson
+    version
+    filename
+    const contractJson = { address: '', abi: [] }
 
     const address =
       contractOverride?.addresses?.[network] ?? contractJson.address
