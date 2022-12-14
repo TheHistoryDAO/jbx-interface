@@ -64,7 +64,7 @@ const handler = async (
     }
 
     const response = await axios.post(
-      'https://api.github.com/repos/jbx-protocol/juice-interface/issues',
+      'https://api.github.com/repos/TheHistoryDAO/jbx-interface/issues',
       data,
       {
         headers,

@@ -48,7 +48,7 @@ export default function Footer() {
   }
 
   const gitCommit = process.env.NEXT_PUBLIC_VERSION
-  const gitCommitLink = `https://github.com/jbx-protocol/juice-interface/commit/${gitCommit}`
+  const gitCommitLink = `https://github.com/TheHistoryDAO/jbx-interface/commit/${gitCommit}`
 
   return (
     <div>

@@ -45,7 +45,7 @@ export function SetNftOperatorPermissionsButton({
         <Trans>
           Allow the{' '}
           <ExternalLink
-            href={`https://github.com/jbx-protocol/juice-721-delegate/blob/main/contracts/JBTiered721DelegateDeployer.sol`}
+            href={`https://github.com/TheHistoryDAO/jbx-721-delegate/blob/main/contracts/JBTiered721DelegateDeployer.sol`}
           >
             Juicebox NFT deployer contract
           </ExternalLink>{' '}
