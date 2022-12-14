@@ -13,8 +13,13 @@ const loadTerminalAddress = (
   // NOTE: This require is harder to easily change in the code base as it means
   // making changes to the way the functions in the file are called.
   // eslint-disable-next-line @typescript-eslint/no-var-requires
-  require(`@jbx-protocol/contracts-v1/deployments/${network}/${terminal}.json`)
-    .address
+  // require(`@jbx-protocol/contracts-v1/deployments/${network}/${terminal}.json`)
+  //   .address
+  {
+    network
+    terminal
+    return ''
+  }
 
 export const getTerminalAddress = (
   version?: V1TerminalVersion,
