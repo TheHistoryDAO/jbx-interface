@@ -19,6 +19,7 @@ export async function hasFundingCycle(
     cv,
   )
   if (!JBFundingCycleStore) {
+    return false
     throw new Error(
       `contract not found: ${V2V3ContractName.JBFundingCycleStore}`,
     )
