@@ -52,9 +52,6 @@
   "dependencies": {
     "@apollo/client": "3.6.9",
     "@arcxmoney/analytics": "^1.0.1",
-    "@jbx-protocol/contracts-v1": "2.0.0",
-    "@jbx-protocol/contracts-v2-4.0.0": "npm:@jbx-protocol/contracts-v2@4.0.0",
-    "@jbx-protocol/contracts-v2-latest": "npm:@jbx-protocol/contracts-v2@8.0.4",
     "@jbx-protocol/juice-721-delegate": "git+https://github.com/TheHistoryDAO/jbx-721-delegate.git#334a186",
     "@jbx-protocol/juice-contracts-v3": "git+https://github.com/TheHistoryDAO/jbx-contracts-v3.git#269ac2e",
     "@jbx-protocol/juice-v1-token-terminal": "1.0.1",
