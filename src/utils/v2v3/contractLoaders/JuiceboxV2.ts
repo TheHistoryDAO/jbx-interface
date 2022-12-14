@@ -5,19 +5,7 @@ import { ContractJson } from '../loadV2V3Contract'
 /**
  * Courtesey of ser DrGorilla.eth
  */
-const V2_GOERLI_CONTRACT_ADDRESSES: { [k in V2V3ContractName]?: string } = {
-  JBOperatorStore: '0x99dB6b517683237dE9C494bbd17861f3608F3585',
-  JBPrices: '0x57bF7C005B77d487074AB3b6Dcd3E5f4D420E3C1',
-  JBProjects: '0x21263a042aFE4bAE34F08Bb318056C181bD96D3b',
-  JBDirectory: '0xeFA8232c90EB523AA4eAe5C0CA2Dd63b5bDC91a1',
-  JBFundingCycleStore: '0xa0FbC1c00C6d9F9d0DD344245E05F7618530A748',
-  JBTokenStore: '0x03104e05412729B98151875Fd83d20A95334E5b1',
-  JBSplitsStore: '0x2293Dbbd37a2CC6bdba109429b91d8398b2CC11f',
-  JBController: '0xE270E62137ceB784FCb1f47Ad7cA0Ba84Cc19d92',
-  JBSingleTokenPaymentTerminalStore:
-    '0x27c4640aF8d1B24f1353C5d112a30fCed19b4978',
-  JBETHPaymentTerminal: '0x8E8d0C73ddee3819Aaa1A2943350012803Cb8AcE',
-}
+const V2_GOERLI_CONTRACT_ADDRESSES: { [k in V2V3ContractName]?: string } = {}
 
 /**
  *  Defines the ABI filename to use for a given V2V3ContractName.
